@@ -52,7 +52,7 @@ def offTargetAnalysis(inputFilePath, outputDir, BSgenomeName=None, txdb=None, or
                       chromToExclude = ["chr17_ctg5_hap1", "chr4_ctg9_hap1", "chr6_apd_hap1",
                                         "chr6_cox_hap2", "chr6_dbb_hap3", "chr6_mann_hap4",
                                         "chr6_mcf_hap5", "chr6_qbl_hap6","chr6_ssto_hap7"],
-                      max_mismatch = 3, PAM_pattern = "NNG$", allowed_mismatch_PAM = 1, gRNA_pattern = "",
+                      max_mismatch = 3, PAM_pattern = "NRG$", allowed_mismatch_PAM = 1, gRNA_pattern = "",
                       baseEditing = False, targetBase = "C", editingWindow = [4, 8],
                       editingWindow_offtargets = [4, 8], primeEditing = False, PBS_length = 13,
                       RT_template_length = [8, 28],
